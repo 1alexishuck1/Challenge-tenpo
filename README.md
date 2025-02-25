@@ -12,13 +12,19 @@ Este proyecto utiliza la API pública de [RandomUser.me](https://randomuser.me/)
 
 Para correr este proyecto localmente, sigue estos pasos:
 
-1. Instala las dependencias:
+1. Clona el repositorio:
+
+```bash
+  git clone https://github.com/1alexishuck1/Challenge-tenpo.git
+```
+
+2. Instala las dependencias:
 
 ```bash
   npm i
 ```
 
-2. Corre el proyecto:
+3. Corre el proyecto:
 
 ```bash
   npm run deploy
