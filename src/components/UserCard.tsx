@@ -1,4 +1,3 @@
-// components/UserCard.tsx
 import { Box, Flex, Image, Text, VStack } from '@chakra-ui/react';
 
 interface UserCardProps {
