@@ -1,4 +1,3 @@
-// src/mocks/api.ts
 import { AxiosResponse } from "axios";
 
 const generateRandomToken = (length: number): string => {
