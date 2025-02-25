@@ -1,0 +1,20 @@
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: transparent !important; /* Fondo igual al del input */
+    color: #f7f7f7 !important; /* Color del texto */
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important; /* Corrige el color de fondo */
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Mantiene el color del texto */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #f7f7f7 !important;
+}
+
+/* Opcional: Estilo del dropdown de autocompletado */
+input::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Si tiene un icono, lo adapta al modo oscuro */
+}
